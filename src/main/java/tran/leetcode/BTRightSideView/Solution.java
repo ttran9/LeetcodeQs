@@ -10,7 +10,7 @@ public class Solution {
          * Below is just an iterative BFS implementation to traverse neighboring nodes until the entire given binary
          * tree has been completely traversed.
          * The runtime is O(n) where n is the number of nodes in the tree.
-         * The space used is O(m) where m number of nodes in the level with the most nodes.
+         * The space used is O(m) where m is the number of nodes in the level with the most nodes.
          */
         LinkedList<Integer> result = new LinkedList<>();
 
